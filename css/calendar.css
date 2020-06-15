@@ -1,0 +1,94 @@
+.cal{
+	margin:5%;
+}
+.cal caption{
+	border:1px solid black;
+	border-radius:25px 25px 0px 0px;
+	background-color:#666666;
+	color:white;
+	font-size:150%;
+}
+table{
+	/* margin:25%; */
+border:3px solid black;
+margin:0PX;
+border-spacing:0px;
+border-radius:0px 0px 25px 25px;
+}
+tr{
+	height:100px;
+}
+tr:last-child td:first-child {/*tr td to use the direct child this is for using the grand childs*/
+	border-radius:0px 0px 0px 25px;
+}
+tr:first-child{
+	background-color:#FFFFFF;
+	height:20px;
+}
+td,th{
+	PADDING:0PX;
+	width:14%;
+}
+th{
+	background-color:white;
+	text-align:center;
+}
+td{
+	vertical-align:top;
+	text-align:left;
+}
+tr:nth-child(even)
+{
+	background-color:#F5F5F5;
+}
+tr:nth-child(odd)
+{
+	background-color:#cdbb79;
+}
+span{
+	visibility:hidden;
+	display:block;
+	color:red;
+	text-align:center;
+}
+td:active>span{
+	visibility:visible;
+}
+tr:last-child>td:last-child{
+	background-color:#51A39D;
+	border-radius:0px 0px 25px 0px;
+}
+td:hover>span{
+	visibility:visible;
+}
+	td:active>span{
+		animation-name:example;
+		animation-duration:4s;
+	background-color:green;
+	position:relative;
+}
+@keyframes example{
+	0%{background-color:green; top:0px;}
+	50%{background-color:red; top:5px;}
+75%{background-color:yellow; top:7px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

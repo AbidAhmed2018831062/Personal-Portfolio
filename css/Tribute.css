@@ -1,0 +1,70 @@
+
+	body{
+background-color:#EEEEEE;
+}
+.container{
+	 background-color:#EEEEEE;
+     margin-right:10%;
+	 margin-left:10%;
+	 box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+header{
+	text-align:center;
+}
+header h1{
+padding-top:4%;
+}
+section.born{
+	margin:1%;
+	padding:1%;
+	border:0.5px solid grey;
+    font-weight: bold;
+	font-style:italic;
+	font-size:110%;
+}
+section.image {
+	margin:1%;
+	text-align:center;
+	border:0.5px solid grey;
+}
+section.image figure{
+	padding:1%;
+	}
+section.image img{
+	border:3px thin grey;
+	height:300px;
+	width:300px;
+	border-radius:50%;
+}
+section.image figure figcaption{
+	border:1px solid grey;
+	background-color:#DDDDDD;
+	padding:6px;
+	font-size:110%;
+	font-style:italic;
+	font-weight:bold;
+}
+.list{
+	font-style:italic;
+	font-weight:bold;
+}
+.list .pa{
+	padding:1%;
+	
+	font-size:150%;
+}
+.list ul li{
+	font-size:110%;
+	/* padding-left:2%; */
+	padding-bottom:0.5%;
+}
+footer{
+	margin:1%;
+	padding:5%;
+	text-align:center;
+	font-size:150%;
+}
+footer a{
+	text-decoration:none;
+}
+	

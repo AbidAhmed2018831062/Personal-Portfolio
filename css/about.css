@@ -1,0 +1,171 @@
+
+body,div,h1,h2,p,img,main,section,footer{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-color:#242427;;
+}
+.n-1{
+	/* displaY:block; */
+	background-color:#BE3144;
+	width:100%;
+	float:right;
+	position:fixed;
+	top:0%;
+}
+.n-1>a{
+	float:right;
+	display:block;
+	text-decoration:none;
+	color:white;
+	padding:20px;
+	font-size:150%;
+	/* border-left:1px soild white; */
+}
+h1,h2,h4,h5{
+	color:#11999e;
+}
+.container{
+	margin-top:4%;
+	margin-right:10%;
+    margin-left:10%;
+	background-color:#E4F9F5;
+	/* overflow:scroll; */
+}
+img{
+	/*display:inline-block;*/
+	float:left;
+	width:150px;
+	height:150px;
+	margin:10px;
+	border:3px solid white;
+	border-radius:50%;
+}
+h1{
+	margin-top:60px;
+	/* color:#E4F9F5; */
+float:left;
+}
+p{
+	display:inline-block;
+}
+.right{
+	display:inline-block;
+	margin-right:20px;
+	float:right;
+	margin-top:60px;
+	font-size:150%;
+}
+.right  a{
+	text-decoration:none;
+	color:grey;
+}
+hr.new1 {
+  border: 3px solid black;
+  clear:both;
+}
+.div-clear{
+	clear:both;
+}
+h2{
+	/* display:inline-block; */
+	float:left;
+	width:25%;
+	font-size:120%;
+	
+	padding:30px;
+}
+.left{
+	float:left;
+	padding:30px;
+	font-size:120%;
+	font-weight:bold;
+	width:60%;
+}
+hr.new2 {
+  border: 2px solid black;
+  clear:both;
+}
+h2{
+	/* display:inline-block; */
+	float:left;
+	width:25%;
+	font-size:120%;
+	
+	padding:30px;
+}
+hr.new3{
+	border:2px solid black;
+	clear:both;
+}
+.f-1{
+	text-align:center;
+	padding-top:10%;
+	background-color:#303841;
+	color:white;
+	padding-bottom:3%;
+}
+.d-4>h3{
+	font-size:200%;
+	padding-bottom:1%;
+	word-spacing:5px;
+	}
+	/* .d-4>h3{
+		font-size:250%;
+		word-spacing:3px;
+		padding-bottom:2%;
+	}
+	.d-4>h{
+		font-size:200%;
+	/* padding-bottom:1%; }*/
+		.n-2{
+			padding:50px;  
+		padding-bottom:20%;
+		}
+	.n-2>a{
+		text-decoration:none;
+		color:white;
+		font-size:200%;
+		/* padding:20px; */
+		padding-left:30px;
+		padding-right:30px;
+		vertical-align:middle;
+		border:1px solid white;
+		margin-left:1%;
+	}
+	.new-1{
+		border:3px solid #BE3144;
+	}
+	.d-5{
+		color:white;
+		text-align:center;
+		font-size:150%;
+	}
+	.d-5 p>a{
+		text-decoration:none;
+		color:grey;
+	}
+	
+#i-1{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
