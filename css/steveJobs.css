@@ -1,0 +1,91 @@
+body,h1,main,section,footer,p,img,header,table,tr,td,a{
+	padding:0px;
+	margin:0px;
+	}
+	body{
+		margin-top:2%;
+}
+	.container{
+	margin-right:15%;
+	margin-left:15%;
+}
+header{
+	margin-bottom:5%;
+}
+header img{
+	width:100%;
+	height:550px;
+}
+header section{
+	text-align:center;
+	font-size:170%;
+	padding:10px;
+	font-family: 'Tangerine', cursive;
+	font-weight:bold;
+	font-size:300%;
+}
+.left{
+	width:70%;
+	float:left;
+	/* background-color:blue; */
+	margin-bottom:10%;
+}
+.left h1{
+	color:#F1F1F1;
+	font-size:320%;
+	margin-bottom:5%;
+}
+.left td,table{
+	border:1px solid white;
+	border-collapse:collapse;
+}
+.left table tr td{
+	padding:6px;
+	background-color:#F9F9F9;
+	border-bottom:5px solid #F2F2F2;
+}
+.left tr td:first-child{
+	width:100px;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+.right{
+	float:right;
+	width:25%;
+}
+.right table{
+	border:1px solid white;
+}
+.right tr td{
+	padding:5px;
+	text-align:center;
+	border-bottom:5px solid #F2F2F2;
+}
+.right tr td:first-child{
+	border:1px solid white;
+}
+.footer{
+	text-align:center;
+	clear:both;
+	background-color:#ECECEC;
+	margin-bottom:10%;
+	/* font-size:200%; */
+}
+.footer p:nth-child(even){
+	font-family: 'Parisienne', cursive;
+	font-size:250%;
+	font-weight:bold;
+	margin-bottom:2%;
+}
+.footer p:first-child{
+	padding-bottom:0%;
+	margin-bottom:0%;
+	font-family:'Pacifico', cursive;
+	font-size:200%;
+}
+.footer a{
+	text-decoration:none;
+}
+.footer a:hover{
+	color:red;
+}
